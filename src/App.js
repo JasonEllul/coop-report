@@ -15,7 +15,7 @@ class App extends Component {
       <div className="App" style={{ backgroundImage: `url(${tile})` }}>
         {/* Sticky note title */}
         <div className='sticky'>
-          <p className='sticky-title'>Co-op Work Term Report</p>
+          <p className='title'>Co-op Work Term Report</p>
           <p>By: Jason Ellul</p>
           <p className='sticky-date'>August 30th, 2019</p>
         </div>
@@ -23,8 +23,8 @@ class App extends Component {
         {/* First page */}
         <div className='paper'>
           <div className='paper-content'>
-            <p className='paper-writing'>Securcor Financial Group</p>
-            <p className='paper-writing'></p>
+            <p className='paper-writing title'>Co-op Work Term 2 - Full Stack Developer at the <a href='http://securcor.com' target='_blank' rel='noopener noreferrer'>Securcor Financial Group</a></p>
+            <br />
             <p className='paper-writing'>If you go onto any University of Guelph department website, you will find a brief description of what they do at the University. Here is what we at CCS describe as our role within the school community:
 
 "CCS provides core IT services to the greater campus community. These include internet connectivity, a campus wide integrated email and calendaring system, telephony infrastructure, software distribution, development of single sign-on technology, learning resources, and more."

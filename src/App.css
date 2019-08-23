@@ -3,6 +3,15 @@ p {
   margin: 0;
 }
 
+br {
+  height: 34px;
+}
+
+a {
+  color: #001ca2;
+  text-decoration: none;
+}
+
 .App {
   position: relative;
   background-color: transparent;
@@ -17,7 +26,7 @@ p {
   letter-spacing: 0.02em;
   /* background-color: #fff;  */
   padding: 0 10%;
-    object-position: center top;
+  object-position: center top;
 }
 
 /* Foreground */
@@ -49,7 +58,7 @@ p {
   align-items: flex-start;
 }
 
-.sticky-title {
+.title {
   font-weight: 600;
 }
 
@@ -60,7 +69,6 @@ p {
 .paper {
   position: relative;
   width: 95%;
-  min-height: 150vh;
   background-color: #fffbf0;
   transform: rotate(-0.5deg);
   z-index: 1;
@@ -111,4 +119,6 @@ p {
   font-size: 22px;
   line-height: 34px;
 }
+
+
 
