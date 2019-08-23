@@ -79,7 +79,7 @@ p {
   top: 0;
   bottom: 0;
   width: 1px;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 
@@ -95,21 +95,20 @@ p {
 .paper-content {
   margin-top: 140px;
   padding-left: 16.5%;
+  padding-right: 2%;
   z-index: 3;
-  /* background: linear-gradient(
-  to bottom,
-  #9acbf6 1px,
-  #65b2f8 1px,
-  transparent 20px
-  ); */
+  /* #9acbf6 1px,
+  #65b2f8 1px, */
   /* Draw lines */
-  background-image: 
+  /* background-image: 
   linear-gradient( rgb(101, 178, 248, 0.7) 2px, transparent 0);
-  background-size: 100% 1.4em;
+  background-size: 100% 1.4em; */
+  background-image: linear-gradient(rgb(101, 178, 248, 0.5) 2px, transparent 1px);
+  background-size: 20px 34px;
 }
 
 .paper-writing {
-  font-size: 1em;
-  line-height: 1.4em;
+  font-size: 22px;
+  line-height: 34px;
 }
 
