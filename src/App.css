@@ -1,33 +1,115 @@
+
+p {
+  margin: 0;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
+  position: relative;
+  background-color: transparent;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #251E14;
+  font-family: 'Schoolbell', cursive;
+  letter-spacing: 0.02em;
+  /* background-color: #fff;  */
+  padding: 0 10%;
+    object-position: center top;
 }
 
-.App-link {
-  color: #61dafb;
+/* Foreground */
+.fg-fixed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.56;
+  z-index: 1000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.sticky {
+  background-color: #FFFD75;
+  width: 350px;
+  height: 300px;
+  padding: 30px;
+  margin: 100px 0 -80px 0;
+  transform: rotate(2deg);
+  z-index: 3;
+  align-self: flex-start;
+  text-align: left;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05), 0 0 40px rgba(0, 0, 0, 0.09) inset;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
+
+.sticky-title {
+  font-weight: 600;
+}
+
+.sticky-date {
+  margin: auto 0 0 0;
+}
+
+.paper {
+  position: relative;
+  width: 95%;
+  min-height: 150vh;
+  background-color: #fffbf0;
+  transform: rotate(-0.5deg);
+  z-index: 1;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.19), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+/* Red line */
+.paper::before {
+  content: '';
+  z-index: 2;
+  position: absolute;
+  background-color: #ff7673;
+  border-left: 1px solid #ff857e;
+  left: 15%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  opacity: 0.7;
+}
+
+
+.staple {
+  position: absolute;
+  /* right: 300px;
+  top: 330px; */
+  width: 81px;
+  transform: rotate(4deg);
+  z-index: 2;
+}
+
+.paper-content {
+  margin-top: 140px;
+  padding-left: 16.5%;
+  z-index: 3;
+  /* background: linear-gradient(
+  to bottom,
+  #9acbf6 1px,
+  #65b2f8 1px,
+  transparent 20px
+  ); */
+  /* Draw lines */
+  background-image: 
+  linear-gradient( rgb(101, 178, 248, 0.7) 2px, transparent 0);
+  background-size: 100% 1.4em;
+}
+
+.paper-writing {
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
