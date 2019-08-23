@@ -7,6 +7,7 @@ import './App.css';
 import tile from './img/cork-board.png';
 import paper from './img/realistic-paper.jpg';
 import staple from './img/staple.jpg';
+import pin from './img/pin.png';
 
 class App extends Component {
 
@@ -22,10 +23,11 @@ class App extends Component {
         {/* <img className='paper' src={paper} /> */}
         {/* First page */}
         <div className='paper'>
+          <img className='pin' src={pin} />
           <div className='paper-content'>
             <p className='paper-writing title'>Co-op Work Term 2 - Full Stack Developer at the <a href='http://securcor.com' target='_blank' rel='noopener noreferrer'>Securcor Financial Group</a></p>
             <br />
-            <p className='paper-writing'>If you go onto any University of Guelph department website, you will find a brief description of what they do at the University. Here is what we at CCS describe as our role within the school community:
+            <p className='paper-writing'>&emsp;If you go onto any University of Guelph department website, you will find a brief description of what they do at the University. Here is what we at CCS describe as our role within the school community:
 
 "CCS provides core IT services to the greater campus community. These include internet connectivity, a campus wide integrated email and calendaring system, telephony infrastructure, software distribution, development of single sign-on technology, learning resources, and more."
 
