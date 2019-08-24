@@ -9,18 +9,24 @@ import paper from './img/realistic-paper.jpg';
 import staple from './img/staple.jpg';
 import pin from './img/pin.png';
 
+// Stickers
+import goku from './img/stickers/goku.png';
+import supreme from './img/stickers/developer.png';
+
 class App extends Component {
 
   render() {
     return (
       <div className="App" style={{ backgroundImage: `url(${tile})` }}>
+        <img className='sticker' style={{ width: 550, right: 0, top: 0, transform: 'rotate(-15deg)' }} src={supreme} />
+        <img className='sticker' style={{ width: 450, left: -100, top: '50%', transform: 'rotate(-15deg)' }} src={goku} />
+
         {/* Sticky note title */}
         <div className='sticky'>
           <p className='title'>Co-op Work Term Report</p>
           <p>By: Jason Ellul</p>
           <p className='sticky-date'>August 30th, 2019</p>
         </div>
-        {/* <img className='paper' src={paper} /> */}
         {/* First page */}
         <div className='paper'>
           <img className='pin' src={pin} />
