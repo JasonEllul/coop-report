@@ -65,11 +65,12 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  font-size: 42px;
+  line-height: 34px;
 }
 
 .title {
   font-weight: 600;
-  text-align: center;
 }
 
 .sticky-date {
@@ -140,9 +141,24 @@ a {
   background-size: 20px 34px;
 }
 
+.paper p {
+  opacity: 0.9;
+}
+
 .paper-writing {
-  font-size: 22px;
+  /* font-size: 22px; */
+  font-size: 42px;
   line-height: 34px;
+}
+
+.paper-title {
+  font-size: 84px;
+  line-height: 68px;
+}
+
+.highlight {
+  background-color:rgba(255, 255, 101, 0.3);
+  border-radius: 0px;
 }
 
 .coffee-stain {
