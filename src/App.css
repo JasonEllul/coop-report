@@ -27,6 +27,7 @@ a {
   /* background-color: #fff;  */
   padding: 0 10%;
   object-position: center top;
+  overflow: hidden;
 }
 
 /* Foreground */

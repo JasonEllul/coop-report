@@ -19,7 +19,7 @@ class App extends Component {
     return (
       <div className="App" style={{ backgroundImage: `url(${tile})` }}>
         <img className='sticker' style={{ width: 550, right: 0, top: 0, transform: 'rotate(-15deg)' }} src={supreme} />
-        <img className='sticker' style={{ width: 450, left: -100, top: '50%', transform: 'rotate(-15deg)' }} src={goku} />
+        <img className='sticker' style={{ width: 450, left: -120, top: 450 }} src={goku} />
 
         {/* Sticky note title */}
         <div className='sticky'>
@@ -39,6 +39,8 @@ class App extends Component {
 
 With technology playing such a vital role in the work done by the campus community, CCS has a strict obligation to keep our services both functional and accessible. Some of the services managed by CCS include: campus-wide internet connectivity, tens of thousands of email accounts, phones and computers for university employees, and hundreds of various web applications and software used by the wide assortment of roles within the campus community.</p>
 
+            <br />
+            <p className='paper-writing'>&emsp;With technology playing such a vital role in the work done by the campus community, CCS has a strict obligation to keep our services both functional and accessible. Some of the services managed by CCS include: campus-wide internet connectivity, tens of thousands of email accounts, phones and computers for university employees, and hundreds of various web applications and software used by the wide assortment of roles within the campus community.</p>
           </div>
         </div>
         {/* <img className='staple' src={staple} /> */}
