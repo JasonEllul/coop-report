@@ -29,8 +29,10 @@ class App extends Component {
         </div>
         {/* First page */}
         <div className='paper'>
+          <div className='tape' style={{ top: 0, left: '-15%', width: '50%', transform: 'rotate(-30deg)' }} />
+          <div className='tape' style={{ top: -20, right: '-12%', width: '30%', transform: 'rotate(40deg)' }} />
           <img className='coffee-stain' src={coffee} />
-          <img className='pin' src={pin} />
+          {/* <img className='pin' src={pin} /> */}
           <div className='paper-content'>
             <p className='paper-title' style={{ textAlign: 'center' }}>Co-op Work Term 2: Full Stack Developer at the <a href='http://securcor.com' target='_blank' rel='noopener noreferrer'>Securcor Financial Group</a></p>
             <br />
