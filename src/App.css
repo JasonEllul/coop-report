@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+.green {
+  color: #6da200;
+}
+
 .App {
   position: relative;
   background-color: transparent;

@@ -19,7 +19,7 @@ class App extends Component {
     return (
       <div className="App" style={{ backgroundImage: `url(${tile})` }}>
         <img className='sticker' style={{ width: 550, right: 0, top: 0, transform: 'rotate(-15deg)' }} src={supreme} />
-        <img className='sticker' style={{ width: 450, left: -120, top: 450 }} src={goku} />
+        <img className='sticker' style={{ width: 450, left: -120, top: 600 }} src={goku} />
 
         {/* Sticky note title */}
         <div className='sticky'>
@@ -31,7 +31,7 @@ class App extends Component {
         <div className='paper'>
           <img className='pin' src={pin} />
           <div className='paper-content'>
-            <p className='paper-writing title'>Co-op Work Term 2 - Full Stack Developer at the <a href='http://securcor.com' target='_blank' rel='noopener noreferrer'>Securcor Financial Group</a></p>
+            <p className='paper-writing title'>Co-op Work Term 2 - <span className='green'>Full Stack Developer</span> at the <a href='http://securcor.com' target='_blank' rel='noopener noreferrer'>Securcor Financial Group</a></p>
             <br />
             <p className='paper-writing'>&emsp;If you go onto any University of Guelph department website, you will find a brief description of what they do at the University. Here is what we at CCS describe as our role within the school community:
 
