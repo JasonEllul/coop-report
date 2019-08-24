@@ -8,7 +8,7 @@ import tile from './img/cork-board.png';
 import paper from './img/realistic-paper.jpg';
 import staple from './img/staple.jpg';
 import pin from './img/pin.png';
-
+import coffee from './img/coffeestain.png';
 // Stickers
 import goku from './img/stickers/goku.png';
 import supreme from './img/stickers/developer.png';
@@ -29,6 +29,7 @@ class App extends Component {
         </div>
         {/* First page */}
         <div className='paper'>
+          <img className='coffee-stain' src={coffee} />
           <img className='pin' src={pin} />
           <div className='paper-content'>
             <p className='paper-writing title'>Co-op Work Term 2 - <span className='green'>Full Stack Developer</span> at the <a href='http://securcor.com' target='_blank' rel='noopener noreferrer'>Securcor Financial Group</a></p>
