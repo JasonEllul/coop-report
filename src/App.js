@@ -34,6 +34,7 @@ class App extends Component {
           <img className='coffee-stain' src={coffee} />
           {/* <img className='pin' src={pin} /> */}
           <div className='paper-content'>
+            <br />
             <p className='paper-title' style={{ textAlign: 'center' }}>Co-op Work Term 2: Full Stack Developer at the <a href='http://securcor.com' target='_blank' rel='noopener noreferrer'>Securcor Financial Group</a></p>
             <br />
             <p className='paper-writing title'><span className='highlight'>Information About the Employer</span></p>
