@@ -22,7 +22,6 @@ a {
 
 .App {
   position: relative;
-  background-color: transparent;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
