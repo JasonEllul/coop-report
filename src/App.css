@@ -148,7 +148,6 @@ a {
   /* font-size: 22px; */
   font-size: 42px;
   line-height: 68px;
-  vertical-align: text-top;
   position: relative;
   top: -17px;
 }
@@ -203,6 +202,7 @@ a {
   z-index: 2;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.2) inset;
   padding: 28px 80px;
+  max-width: 98%;
 }
 .construction-overlay {
   position: absolute;
@@ -210,9 +210,15 @@ a {
   top: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.2;
+  opacity: 0.55;
   z-index: -1;
   background-repeat: repeat;
+}
+
+.construction-paper-writing {
+  font-size: 42px;
+  line-height: 68px;
+  position: relative;
 }
 
 

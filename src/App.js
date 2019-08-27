@@ -79,13 +79,13 @@ class App extends Component {
             <p className='paper-writing'>
               &emsp;Another project I had the opportunity to work on was remaking the Securcor external website.
               I presented directly to the CEO and Executive Vice President to ensure that my designs fit the company brand.
-              The site I made is in production and can be found <a href='http://securcor.com' target='_blank' rel='noopener noreferrer'>here.</a>
+              The site I made is in production and can be accessed <a href='http://securcor.com' target='_blank' rel='noopener noreferrer'>here.</a>
             </p>
             <br />
           </div>
         </div>
         {/* Photos */}
-        <div style={{ display: 'flex', flexDirection: 'row', marginTop: '-20px', marginBottom: 150 }}>
+        <div style={{ display: 'flex', flexDirection: 'row', marginTop: '-20px', marginBottom: 180 }}>
           <div className='pic-wrapper' style={{ transform: 'rotate(-1deg)' }}>
             <img className='pin' src={pin} style={{ transform: 'rotate(12deg)', paddingLeft: 10 }} />
             <img className='pic' src={desk} />
@@ -98,11 +98,20 @@ class App extends Component {
           </div>
         </div>
         {/* Learning Goals Papers */}
-        <div className='construction-paper' style={{ transform: 'rotate(-2deg)' }}>
+        <div className='construction-paper' style={{ transform: 'rotate(-2deg)', backgroundColor: '#9bbddb', marginBottom: 100 }}>
           <div className='tape' style={{ top: '18%', left: '-18%', width: '38%', transform: 'rotate(-86deg)' }} />
-          <div className='tape' style={{ top: '-21%', right: '-21%', width: '42%', transform: 'rotate(78deg)' }} />
+          <div className='tape' style={{ top: '15%', right: '-15%', width: '32%', transform: 'rotate(78deg)' }} />
           <div className='construction-overlay' style={{ backgroundImage: `url(${texture})` }} />
           <p className='paper-title' style={{ textAlign: 'center' }}>LEARNING GOALS</p>
+        </div>
+        {/* Goal #1 */}
+        <div className='construction-paper' style={{ transform: 'rotate(0.2deg)', backgroundColor: '#f2cad9' }}>
+          {/* <div className='tape' style={{ top: '18%', left: '-18%', width: '38%', transform: 'rotate(-86deg)' }} />
+          <div className='tape' style={{ top: '-21%', right: '-21%', width: '42%', transform: 'rotate(78deg)' }} /> */}
+          <div className='construction-overlay' style={{ backgroundImage: `url(${texture})` }} />
+          <p className='construction-paper-writing title'>1. Communicating - Integrative Communication</p>
+          <br />
+          <p className='construction-paper-writing'>A good leader is essential in the workplace to empower team members to work at their full potential and to take responsibility for decision making. Before working at CCS, I didn't view myself as much of a leader but after this work term I have definitely surpassed my goal of impoving my leadership skills. By taking inititive to be the first one to test new services and being responsible to create documentation for these services, I became the go-to person for other consultants to ask questions about things that they were unfamiliar with. I had to assume the role of a leader and make sure that my colleagues (particulary the part-time staff who didn't work as often) were informed about the changes in our services as well as executing new procedures correctly. I really enjoyed being a leader figure in the workplace and my newfound leadership skills will be beneficial in future co-op work terms as I will likely be working in a collaborative environment again.</p>
         </div>
         <div style={{ height: '100vh' }} />
       </div>
