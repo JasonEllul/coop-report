@@ -9,6 +9,9 @@ import paper from './img/realistic-paper.jpg';
 import staple from './img/staple.jpg';
 import pin from './img/pin.png';
 import coffee from './img/coffeestain.png';
+
+// Pics
+import burloak from './img/burloak.jpg';
 // Stickers
 import goku from './img/stickers/goku.png';
 import supreme from './img/stickers/developer.png';
@@ -32,7 +35,6 @@ class App extends Component {
           <div className='tape' style={{ top: 0, left: '-15%', width: '50%', transform: 'rotate(-28deg)' }} />
           <div className='tape' style={{ top: -20, right: '-12%', width: '30%', transform: 'rotate(42deg)' }} />
           <img className='coffee-stain' src={coffee} />
-          {/* <img className='pin' src={pin} /> */}
           <div className='paper-content'>
             <p className='paper-title' style={{ textAlign: 'center' }}>Co-op Work Term 2: Full Stack Developer at the <a href='http://securcor.com' target='_blank' rel='noopener noreferrer'>Securcor Financial Group</a></p>
             <br />
@@ -46,6 +48,11 @@ class App extends Component {
             A team of IT people also work on maintaining the technological infrastructure of the office and making improvements to existing proprietary software involved in the securitization process.
             </p>
           </div>
+        </div>
+        <div className='pic-wrapper' style={{ transform: 'rotate(3deg)' }}>
+          <img className='pin' src={pin} style={{ transform: 'rotate(4deg)' }} />
+          <img className='pic' src={burloak} />
+          <p className='pic-text'>Securcor Head Office Building.</p>
         </div>
         {/* <img className='staple' src={staple} /> */}
         <div style={{ height: '100vh' }} />
