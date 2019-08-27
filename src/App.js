@@ -49,12 +49,31 @@ class App extends Component {
             </p>
           </div>
         </div>
+        {/* First pic */}
         <div className='pic-wrapper' style={{ transform: 'rotate(3deg)' }}>
           <img className='pin' src={pin} style={{ transform: 'rotate(20deg)', paddingLeft: 10 }} />
           <img className='pic' src={burloak} />
           <p className='pic-text'>Securcor Head Office Building.</p>
         </div>
-        {/* <img className='staple' src={staple} /> */}
+        {/* Second Page */}
+        <div className='paper' >
+          <div className='tape' style={{ top: -25, left: '-10%', width: '25%', transform: 'rotate(-20deg)' }} />
+          <div className='tape' style={{ top: 12, right: '-12%', width: '30%', transform: 'rotate(35deg)' }} />
+          <img className='coffee-stain' src={coffee} />
+          <div className='paper-content'>
+            <p className='paper-title' style={{ textAlign: 'center' }}>Co-op Work Term 2: Full Stack Developer at the <a href='http://securcor.com' target='_blank' rel='noopener noreferrer'>Securcor Financial Group</a></p>
+            <br />
+            <p className='paper-writing title'><span className='highlight'>Information About the Employer</span></p>
+            <p className='paper-writing'>&emsp;Securcor provides customized securitization and structured financing programs to clients across Canada and the United States.
+            Securcor offers an alternative to traditional sources of lending, and the opportunity for reducing financing costs. Since it's inception in 1999, Securcor has originated close to $5.0 billion in automobile financing, equipment leases, and consumer finance contracts.
+            </p>
+            <br />
+            <p className='paper-writing'>&emsp;The Securcor Financial Group head office (where I work) is located in Burlington, Ontario.
+            Within the office, an experienced business group utilizes advanced reporting tools to carry out securitization; an intensive procedure with the objective of liquidating assets into marketable securities.
+            A team of IT people also work on maintaining the technological infrastructure of the office and making improvements to existing proprietary software involved in the securitization process.
+            </p>
+          </div>
+        </div>
         <div style={{ height: '100vh' }} />
       </div>
     );
