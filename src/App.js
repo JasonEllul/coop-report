@@ -21,8 +21,8 @@ class App extends Component {
   render() {
     return (
       <div className="App" style={{ backgroundImage: `url(${tile})` }}>
-        {/* <img className='sticker' style={{ width: 550, right: 0, top: 0, transform: 'rotate(-15deg)' }} src={supreme} />
-        <img className='sticker' style={{ width: 450, left: -120, top: 600 }} src={goku} /> */}
+        <img className='sticker' style={{ width: 550, right: 0, top: 0, transform: 'rotate(-15deg)' }} src={supreme} />
+        {/* <img className='sticker' style={{ width: 450, left: -120, top: 600 }} src={goku} /> */}
 
         {/* Sticky note title */}
         <div className='sticky'>
