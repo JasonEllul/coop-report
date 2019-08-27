@@ -42,7 +42,7 @@ class App extends Component {
             </p>
             <br />
             <p className='paper-writing'>&emsp;The Securcor Financial Group's head office (where I worked) is located in Burlington, Ontario.
-            Within the office, an experienced team of individuals use advanced reporting tools to carry out securitization; a process with the objective of converting assets into marketable securities.
+            Within the office, an experienced business group uses advanced reporting tools to carry out securitization; a process with the objective of converting assets into marketable securities.
             </p>
           </div>
         </div>
