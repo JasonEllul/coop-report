@@ -21,8 +21,8 @@ class App extends Component {
   render() {
     return (
       <div className="App" style={{ backgroundImage: `url(${tile})` }}>
-        <img className='sticker' style={{ width: 550, right: 0, top: 0, transform: 'rotate(-15deg)' }} src={supreme} />
-        <img className='sticker' style={{ width: 450, left: -120, top: 600 }} src={goku} />
+        {/* <img className='sticker' style={{ width: 550, right: 0, top: 0, transform: 'rotate(-15deg)' }} src={supreme} />
+        <img className='sticker' style={{ width: 450, left: -120, top: 600 }} src={goku} /> */}
 
         {/* Sticky note title */}
         <div className='sticky'>
@@ -56,14 +56,11 @@ class App extends Component {
           <p className='pic-text'>Securcor Head Office Building.</p>
         </div>
         {/* Second Page */}
-        <div className='paper' >
+        <div className='paper' style={{ transform: 'rotate(0.2deg)' }} >
           <div className='tape' style={{ top: -25, left: '-10%', width: '25%', transform: 'rotate(-20deg)' }} />
           <div className='tape' style={{ top: 12, right: '-12%', width: '30%', transform: 'rotate(35deg)' }} />
-          <img className='coffee-stain' src={coffee} />
           <div className='paper-content'>
-            <p className='paper-title' style={{ textAlign: 'center' }}>Co-op Work Term 2: Full Stack Developer at the <a href='http://securcor.com' target='_blank' rel='noopener noreferrer'>Securcor Financial Group</a></p>
-            <br />
-            <p className='paper-writing title'><span className='highlight'>Information About the Employer</span></p>
+            <p className='paper-writing title'><span className='highlight'>Job Description</span></p>
             <p className='paper-writing'>&emsp;Securcor provides customized securitization and structured financing programs to clients across Canada and the United States.
             Securcor offers an alternative to traditional sources of lending, and the opportunity for reducing financing costs. Since it's inception in 1999, Securcor has originated close to $5.0 billion in automobile financing, equipment leases, and consumer finance contracts.
             </p>
