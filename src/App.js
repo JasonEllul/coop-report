@@ -34,15 +34,16 @@ class App extends Component {
           <img className='coffee-stain' src={coffee} />
           {/* <img className='pin' src={pin} /> */}
           <div className='paper-content'>
-            <br />
             <p className='paper-title' style={{ textAlign: 'center' }}>Co-op Work Term 2: Full Stack Developer at the <a href='http://securcor.com' target='_blank' rel='noopener noreferrer'>Securcor Financial Group</a></p>
             <br />
             <p className='paper-writing title'><span className='highlight'>Information About the Employer</span></p>
-            <p className='paper-writing'>&emsp;Securcor provides customized securitization, receivable and structured financing programs to clients across Canada and the United States.
-            Securcor offers an alternative to traditional sources of lending, and the opportunity for reduced financing costs. Since it's inception in 1999, Securcor has originated close to $5.0 billion in automobile financing, equipment leases, and consumer finance contracts.
+            <p className='paper-writing'>&emsp;Securcor provides customized securitization and structured financing programs to clients across Canada and the United States.
+            Securcor offers an alternative to traditional sources of lending, and the opportunity for reducing financing costs. Since it's inception in 1999, Securcor has originated close to $5.0 billion in automobile financing, equipment leases, and consumer finance contracts.
             </p>
             <br />
-            <p className='paper-writing'>&emsp;With technology playing such a vital role in the work done by the campus community, CCS has a strict obligation to keep our services both functional and accessible. Some of the services managed by CCS include: campus-wide internet connectivity, tens of thousands of email accounts, phones and computers for university employees, and hundreds of various web applications and software used by the wide assortment of roles within the campus community.</p>
+            <p className='paper-writing'>&emsp;The Securcor Financial Group's head office (where I worked) is located in Burlington, Ontario.
+            Within the office, an experienced team of individuals use advanced reporting tools to carry out securitization; a process with the objective of converting assets into marketable securities.
+            </p>
           </div>
         </div>
         {/* <img className='staple' src={staple} /> */}
