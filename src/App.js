@@ -50,7 +50,7 @@ class App extends Component {
           </div>
         </div>
         <div className='pic-wrapper' style={{ transform: 'rotate(3deg)' }}>
-          <img className='pin' src={pin} style={{ transform: 'rotate(4deg)' }} />
+          <img className='pin' src={pin} style={{ transform: 'rotate(20deg)', paddingLeft: 10 }} />
           <img className='pic' src={burloak} />
           <p className='pic-text'>Securcor Head Office Building.</p>
         </div>
