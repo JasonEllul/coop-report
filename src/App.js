@@ -32,7 +32,7 @@ class App extends Component {
         </div>
         {/* First page */}
         <div className='paper'>
-          <div className='tape' style={{ top: 0, left: '-15%', width: '50%', transform: 'rotate(-28deg)' }} />
+          {/* <div className='tape' style={{ top: 0, left: '-15%', width: '50%', transform: 'rotate(-28deg)' }} /> */}
           <div className='tape' style={{ top: -20, right: '-12%', width: '30%', transform: 'rotate(42deg)' }} />
           <img className='coffee-stain' src={coffee} />
           <div className='paper-content'>
@@ -53,22 +53,17 @@ class App extends Component {
         <div className='pic-wrapper' style={{ transform: 'rotate(3deg)' }}>
           <img className='pin' src={pin} style={{ transform: 'rotate(20deg)', paddingLeft: 10 }} />
           <img className='pic' src={burloak} />
-          <p className='pic-text'>Securcor Head Office Building.</p>
+          <p className='pic-text'>The Securcor Head Office Building.</p>
         </div>
         {/* Second Page */}
         <div className='paper' style={{ transform: 'rotate(0.2deg)' }} >
           <div className='tape' style={{ top: -25, left: '-10%', width: '25%', transform: 'rotate(-20deg)' }} />
-          <div className='tape' style={{ top: 12, right: '-12%', width: '30%', transform: 'rotate(35deg)' }} />
+          <div className='tape' style={{ top: 12, right: '-12%', width: '32%', transform: 'rotate(35deg)' }} />
           <div className='paper-content'>
             <p className='paper-writing title'><span className='highlight'>Job Description</span></p>
-            <p className='paper-writing'>&emsp;Securcor provides customized securitization and structured financing programs to clients across Canada and the United States.
-            Securcor offers an alternative to traditional sources of lending, and the opportunity for reducing financing costs. Since it's inception in 1999, Securcor has originated close to $5.0 billion in automobile financing, equipment leases, and consumer finance contracts.
+            <p className='paper-writing'>&emsp;As a full stack developer,
             </p>
             <br />
-            <p className='paper-writing'>&emsp;The Securcor Financial Group head office (where I work) is located in Burlington, Ontario.
-            Within the office, an experienced business group utilizes advanced reporting tools to carry out securitization; an intensive procedure with the objective of liquidating assets into marketable securities.
-            A team of IT people also work on maintaining the technological infrastructure of the office and making improvements to existing proprietary software involved in the securitization process.
-            </p>
           </div>
         </div>
         <div style={{ height: '100vh' }} />
