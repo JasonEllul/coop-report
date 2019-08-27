@@ -58,10 +58,10 @@ class App extends Component {
         {/* Second Page */}
         <div className='paper' style={{ transform: 'rotate(0.2deg)' }} >
           <div className='tape' style={{ top: -25, left: '-10%', width: '25%', transform: 'rotate(-20deg)' }} />
-          <div className='tape' style={{ top: 12, right: '-12%', width: '32%', transform: 'rotate(35deg)' }} />
+          <div className='tape' style={{ top: 12, right: '-12%', width: '32%', transform: 'rotate(24deg)' }} />
           <div className='paper-content'>
             <p className='paper-writing title'><span className='highlight'>Job Description</span></p>
-            <p className='paper-writing'>&emsp;As a full stack developer,
+            <p className='paper-writing'>&emsp;As a full stack developer, I was expected to make significant technical contributions during each step of the project
             </p>
             <br />
           </div>
