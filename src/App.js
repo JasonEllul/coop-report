@@ -84,14 +84,14 @@ class App extends Component {
           </div>
         </div>
         {/* Photos */}
-        <div style={{ display: 'flex', flexDirection: 'row', marginTop: '-30px' }}>
+        <div style={{ display: 'flex', flexDirection: 'row', marginTop: '-35px' }}>
           <div className='pic-wrapper' style={{ transform: 'rotate(-1deg)' }}>
-            <img className='pin' src={pin} style={{ transform: 'rotate(28deg)', paddingLeft: 10 }} />
+            <img className='pin' src={pin} style={{ transform: 'rotate(10deg)', paddingLeft: 10 }} />
             <img className='pic' src={desk} />
             <p className='pic-text'>My workstation on the office floor.</p>
           </div>
-          <div className='pic-wrapper' style={{ transform: 'rotate(2deg)' }}>
-            <img className='pin' src={pin} style={{ transform: 'rotate(-0deg)', paddingLeft: 10 }} />
+          <div className='pic-wrapper' style={{ transform: 'rotate(2deg) translateY(40px)' }}>
+            <img className='pin' src={pin} style={{ transform: 'rotate(-12deg)', paddingLeft: 10 }} />
             <img className='pic' src={name} />
             <p className='pic-text'>Name plaque in my cubicle.</p>
           </div>
