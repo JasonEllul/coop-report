@@ -29,9 +29,7 @@ a {
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: #251E14;
-  /* font-family: 'Schoolbell', cursive; */
-  font-family: 'Chilanka', cursive;
-  /* font-family: 'Thasadith', sans-serif; */
+  font-family: 'Patrick Hand', cursive;
   letter-spacing: 0.02em;
   /* background-color: #fff;  */
   padding: 0 8%;
@@ -149,17 +147,16 @@ a {
 
 .paper-writing {
   /* font-size: 22px; */
-  font-size: 30px;
+  font-size: 42px;
   line-height: 68px;
+  vertical-align: text-top;
   position: relative;
-  top: 6px;
+  top: -14px;
 }
 
 .paper-title {
-  font-size: 52px;
+  font-size: 84px;
   line-height: 68px;
-  position: relative;
-  /* top: -12px; */
 }
 
 .highlight {
