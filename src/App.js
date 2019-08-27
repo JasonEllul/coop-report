@@ -85,7 +85,7 @@ class App extends Component {
           </div>
         </div>
         {/* Photos */}
-        <div style={{ display: 'flex', flexDirection: 'row', marginTop: '-20px', marginBottom: 180 }}>
+        <div style={{ display: 'flex', flexDirection: 'row', marginTop: '-20px', marginBottom: 165 }}>
           <div className='pic-wrapper' style={{ transform: 'rotate(-1deg)' }}>
             <img className='pin' src={pin} style={{ transform: 'rotate(12deg)', paddingLeft: 10 }} />
             <img className='pic' src={desk} />
@@ -98,7 +98,7 @@ class App extends Component {
           </div>
         </div>
         {/* Learning Goals Papers */}
-        <div className='construction-paper' style={{ transform: 'rotate(-2deg)', backgroundColor: '#9bbddb', marginBottom: 100 }}>
+        <div className='construction-paper' style={{ transform: 'rotate(-2deg)', backgroundColor: '#9bbddb', marginBottom: 80 }}>
           <div className='tape' style={{ top: '18%', left: '-18%', width: '38%', transform: 'rotate(-86deg)' }} />
           <div className='tape' style={{ top: '15%', right: '-15%', width: '32%', transform: 'rotate(78deg)' }} />
           <div className='construction-overlay' style={{ backgroundImage: `url(${texture})` }} />
@@ -106,12 +106,16 @@ class App extends Component {
         </div>
         {/* Goal #1 */}
         <div className='construction-paper' style={{ transform: 'rotate(0.2deg)', backgroundColor: '#f2cad9' }}>
-          {/* <div className='tape' style={{ top: '18%', left: '-18%', width: '38%', transform: 'rotate(-86deg)' }} />
-          <div className='tape' style={{ top: '-21%', right: '-21%', width: '42%', transform: 'rotate(78deg)' }} /> */}
+          <div className='tape' style={{ top: 0, left: -140, width: 402, transform: 'rotate(-30deg)' }} />
+          <div className='tape' style={{ top: 0, right: -100, width: 302, transform: 'rotate(28deg)' }} />
           <div className='construction-overlay' style={{ backgroundImage: `url(${texture})` }} />
           <p className='construction-paper-writing title'>1. Communicating - Integrative Communication</p>
           <br />
-          <p className='construction-paper-writing'>A good leader is essential in the workplace to empower team members to work at their full potential and to take responsibility for decision making. Before working at CCS, I didn't view myself as much of a leader but after this work term I have definitely surpassed my goal of impoving my leadership skills. By taking inititive to be the first one to test new services and being responsible to create documentation for these services, I became the go-to person for other consultants to ask questions about things that they were unfamiliar with. I had to assume the role of a leader and make sure that my colleagues (particulary the part-time staff who didn't work as often) were informed about the changes in our services as well as executing new procedures correctly. I really enjoyed being a leader figure in the workplace and my newfound leadership skills will be beneficial in future co-op work terms as I will likely be working in a collaborative environment again.</p>
+          <p className='construction-paper-writing'>
+            &emsp;This goal was established early into my co-op term with the objective of improving my integrative communication skills during project work.
+            I've always been interested in expanding my skills into more business / requirements analysis work, and this goal nicely compliments this interest.
+            My measure of success was how well as I was able to communicate and  with non-technical
+          </p>
         </div>
         <div style={{ height: '100vh' }} />
       </div>
