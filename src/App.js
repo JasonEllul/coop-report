@@ -41,8 +41,9 @@ class App extends Component {
             Securcor offers an alternative to traditional sources of lending, and the opportunity for reducing financing costs. Since it's inception in 1999, Securcor has originated close to $5.0 billion in automobile financing, equipment leases, and consumer finance contracts.
             </p>
             <br />
-            <p className='paper-writing'>&emsp;The Securcor Financial Group's head office (where I worked) is located in Burlington, Ontario.
-            Within the office, an experienced business group uses advanced reporting tools to carry out securitization; a process with the objective of converting assets into marketable securities.
+            <p className='paper-writing'>&emsp;The Securcor Financial Group head office (where I work) is located in Burlington, Ontario.
+            Within the office, an experienced business group utilizes advanced reporting tools to carry out securitization; an intensive procedure with the objective of liquidating assets into marketable securities.
+            A team of IT people also work on maintaining the technological infrastructure of the office and making improvements to existing proprietary software involved in the securitization process.
             </p>
           </div>
         </div>
