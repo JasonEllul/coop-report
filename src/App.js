@@ -14,7 +14,7 @@ import coffee from './img/coffeestain.png';
 // Pics
 import burloak from './img/burloak.jpg';
 import desk from './img/desk.JPG';
-import name from './img/name.JPG';
+import securcor from './img/securcor-mission-shadow.jpg';
 // Stickers
 import goku from './img/stickers/goku.png';
 import supreme from './img/stickers/developer.png';
@@ -47,7 +47,7 @@ class App extends Component {
             </p>
             <br />
             <p className='paper-writing'>&emsp;The Securcor Financial Group head office (where I work) is located in Burlington, Ontario.
-            Within the office, an experienced business group utilizes advanced reporting tools to carry out securitization; an intensive procedure with the objective of liquidating assets into marketable securities.
+            Within the office, an experienced business group utilizes advanced reporting tools to carry out securitization; a business practice with the objective of liquidating assets into marketable securities.
             A team of IT people also work on maintaining the technological infrastructure of the office and making improvements to existing proprietary software involved in the securitization process.
             </p>
           </div>
@@ -88,13 +88,13 @@ class App extends Component {
         <div style={{ display: 'flex', flexDirection: 'row', marginTop: '-20px', marginBottom: 165 }}>
           <div className='pic-wrapper' style={{ transform: 'rotate(-1deg)' }}>
             <img className='pin' src={pin} style={{ transform: 'rotate(12deg)', paddingLeft: 10 }} />
-            <img className='pic' src={desk} />
-            <p className='pic-text'>My workstation on the office floor.</p>
+            <img className='pic' src={securcor} />
+            <p className='pic-text'>Designs for the Securcor external website.</p>
           </div>
           <div className='pic-wrapper' style={{ transform: 'rotate(3deg) translateY(100px)' }}>
             <img className='pin' src={pin} style={{ transform: 'rotate(-12deg) translateX(-10px)' }} />
-            <img className='pic' src={name} />
-            <p className='pic-text'>Name plaque in my cubicle.</p>
+            <img className='pic' src={desk} />
+            <p className='pic-text'>My workstation on the office floor.</p>
           </div>
         </div>
         {/* Learning Goals Papers */}
