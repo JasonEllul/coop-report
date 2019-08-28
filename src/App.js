@@ -24,7 +24,7 @@ class App extends Component {
   render() {
     return (
       <div className="App" style={{ backgroundImage: `url(${tile})` }}>
-        <img className='sticker' style={{ width: 550, right: 0, top: 0, transform: 'rotate(-15deg)' }} src={supreme} />
+        {/* <img className='sticker' style={{ width: 550, right: 0, top: 0, transform: 'rotate(-15deg)' }} src={supreme} /> */}
         {/* <img className='sticker' style={{ width: 450, left: -120, top: 600 }} src={goku} /> */}
 
         {/* Sticky note title */}
@@ -70,10 +70,10 @@ class App extends Component {
             </p>
             <br />
             <p className='paper-writing'>
-              &emsp;The biggest project I worked on during my co-op term was creating a full stack web application to oversee the company's SFTP users.
+              &emsp;The biggest project I worked on during my co-op term was creating a full stack web application to internally oversee the company's SFTP users.
                 For this project, I first had to create a RESTful API with secure endpoints that can configure SFTP users on a Ubuntu host.
                 Using the React framework, I then designed and programmed a web front-end to communicate with my API.
-                The result was a web app which was allowed anyone in the company to login with their existing LDAP credentials and create, modify, or delete SFTP users; saving time and dependance in the office by elimating the need for an IT person to do the configuration manually.
+                The result was a web app which was allowed anyone in the company to login with their existing credentials and create, modify, or delete SFTP users; saving time and dependance in the office by elimating the need for an IT person to do the configuration manually.
             </p>
             <br />
             <p className='paper-writing'>
