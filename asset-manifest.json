@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/coop-reports/static/css/main.e82fc3a3.chunk.css",
+    "main.js": "/coop-reports/static/js/main.0e98a859.chunk.js",
+    "main.js.map": "/coop-reports/static/js/main.0e98a859.chunk.js.map",
+    "runtime~main.js": "/coop-reports/static/js/runtime~main.056f13a3.js",
+    "runtime~main.js.map": "/coop-reports/static/js/runtime~main.056f13a3.js.map",
+    "static/js/2.6e0897e8.chunk.js": "/coop-reports/static/js/2.6e0897e8.chunk.js",
+    "static/js/2.6e0897e8.chunk.js.map": "/coop-reports/static/js/2.6e0897e8.chunk.js.map",
+    "index.html": "/coop-reports/index.html",
+    "precache-manifest.6f82ff3126f5123b1588385586c39244.js": "/coop-reports/precache-manifest.6f82ff3126f5123b1588385586c39244.js",
+    "service-worker.js": "/coop-reports/service-worker.js",
+    "static/css/main.e82fc3a3.chunk.css.map": "/coop-reports/static/css/main.e82fc3a3.chunk.css.map",
+    "static/media/burloak.jpg": "/coop-reports/static/media/burloak.0669b175.jpg",
+    "static/media/coffeestain.png": "/coop-reports/static/media/coffeestain.25994c63.png",
+    "static/media/cork-board.png": "/coop-reports/static/media/cork-board.2541cc28.png",
+    "static/media/desk.JPG": "/coop-reports/static/media/desk.b0147586.JPG",
+    "static/media/developer.png": "/coop-reports/static/media/developer.8f6a825a.png",
+    "static/media/goku.png": "/coop-reports/static/media/goku.9763fc1d.png",
+    "static/media/paper.png": "/coop-reports/static/media/paper.7e93b9c7.png",
+    "static/media/pin.png": "/coop-reports/static/media/pin.8350ae64.png",
+    "static/media/realistic-paper.jpg": "/coop-reports/static/media/realistic-paper.9fb055eb.jpg",
+    "static/media/securcor-mission-shadow.jpg": "/coop-reports/static/media/securcor-mission-shadow.4ce476ec.jpg"
+  }
+}
