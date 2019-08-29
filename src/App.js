@@ -157,9 +157,9 @@ class App extends Component {
           </p>
         </div>
         {/* Conclusion page */}
-        <div className='paper' style={{ transform: 'rotate(0.2deg)', marginTop: 80 }} >
-          <div className='tape' style={{ top: -25, left: '-10%', width: '25%', transform: 'rotate(-20deg)' }} />
-          <div className='tape' style={{ top: 12, right: '-12%', width: '32%', transform: 'rotate(24deg)' }} />
+        <div className='paper' style={{ transform: 'rotate(-0.1deg)', marginTop: 80, marginBottom: 50 }} >
+          <div className='tape' style={{ top: -25, left: '-10%', width: '32%', transform: 'rotate(-22deg)' }} />
+          <div className='tape' style={{ top: 0, right: '-10%', width: '25%', transform: 'rotate(20deg)' }} />
           <div className='paper-content'>
             <p className='paper-writing title'><span className='highlight'>Conclusion &amp; Acknowledgments</span></p>
             <br />
@@ -171,6 +171,7 @@ class App extends Component {
                I am very proud of the projects I have completed thus far for Securcor and I am looking forward to continuing my employment part-time during next semester.
                Overall, I have come a long way from where I started, and it is truly interesting to reflect on how much I have learned in just 4 months.
             </p>
+            <br />
             <p className='paper-writing'>
               I would first like to thank Andre for being such a great boss, mentor, and friend.
               I have greatly enjoyed working alongside you, Ryan, and the rest of the team and appreciate how welcome you have all made me feel the past 4 months.
@@ -179,7 +180,13 @@ class App extends Component {
             <br />
           </div>
         </div>
-        <div style={{ height: '100vh' }} />
+        {/* Link construction paper */}
+        <div className='construction-paper' style={{ transform: 'rotate(2deg)', backgroundColor: '#fcda4b' }}>
+          <div className='tape' style={{ top: '18%', left: '-15%', width: '30%', transform: 'rotate(-86deg)' }} />
+          <div className='tape' style={{ top: '15%', right: '-15%', width: '32%', transform: 'rotate(78deg)' }} />
+          <div className='construction-overlay' style={{ backgroundImage: `url(${texture})` }} />
+          <a className='paper-title' style={{ textAlign: 'center', color: '#000' }} href='https://ellul.ca'>BACK TO MAIN SITE</a>
+        </div>
       </div>
     );
   }
