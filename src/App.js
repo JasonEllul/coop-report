@@ -173,9 +173,9 @@ class App extends Component {
             </p>
             <br />
             <p className='paper-writing'>
-              I would first like to thank Andre for being such a great boss, mentor, and friend.
-              I have greatly enjoyed working alongside you, Ryan, and the rest of the team and appreciate how welcome you have all made me feel the past 4 months.
-              Thank you to all my coworkers for being such great colleagues and making this co-op term an enjoyable, memorable experience for me!
+              &emsp;I would first like to thank Andre for being such a great boss, mentor, and friend.
+                I have greatly enjoyed working alongside you, Ryan, and the rest of the team and appreciate how welcome you have all made me feel the past 4 months.
+                Thank you to all my coworkers for being such great colleagues and making this co-op term such an enjoyable, memorable experience!
             </p>
             <br />
           </div>
